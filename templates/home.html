@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h2>به برنامه تست خوش آمدید</h2>
+<p>برای انتقال به صفحه مورد نظر میتوانید از لینک های زیر استفاده کنید</p>
+<br>
+{% block nav %}
+    <ul id="nav">
+        <li><a href="/login/">ورود کاربران</a></li>
+        <li><a href="/data/">افزودن اطلاعات معامله</a></li>
+        <li><a href="/admin/">پنل مدیریت</a></li>
+        <li><a href="/result/">دیدن معاملات</a></li>
+    </ul>
+{% endblock %}
+
+</body>
+</html>
